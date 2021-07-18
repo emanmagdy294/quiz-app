@@ -1,0 +1,50 @@
+/*
+body
+{
+    font-family: 'segoe ui light';
+}
+.item
+{
+    cursor: pointer;
+    margin-top: 30px;
+}
+.item-caption
+{
+    left: 10%;
+    bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    width: 80%;
+}
+
+.lightbox-container
+{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.lightbox-item
+{
+    height: 550px;
+    width: 45%;
+    background-image: url(../images/portfolio-2.jpg);
+    background-size: 100% 100%;
+}
+.lightbox-item i 
+{
+    font-size: 20px;
+    margin: 10px;
+    cursor: po;
+
+}
+#closeBtn
+{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+*/

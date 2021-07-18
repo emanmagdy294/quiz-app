@@ -1,0 +1,132 @@
+
+body
+{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    background-color: rgb(83, 83, 138);
+
+}
+.quiz-app
+{
+    margin: 20px auto;
+    width: 80%; 
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: -5px 2px 54px -9px rgb(118, 100, 139);
+
+}
+.quiz-info
+{
+    border-radius: 3px;
+}
+.quiz-app .quiz-info
+{
+   
+    background-color: #fff;
+    padding: 20px;
+}
+.quiz-app .answers-area .answer input[type="Radio"]:checked + label {
+    color:blueviolet;
+}
+.quiz-app .answers-area .answer label
+{
+
+    cursor: pointer;
+    font-size: 18px;
+}
+button
+{
+    background-color: blueviolet;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.bullets
+{
+    border-top: 1px solid #dfdfdf;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.spans 
+{
+flex: 1;
+display: flex;
+}
+.spans span
+{
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+span.on
+{
+    background-color: blueviolet;
+}
+
+.answer
+{
+    border-bottom: solid 1px rgb(211, 211, 211);
+    padding: 10px;
+}
+
+.icon
+{
+    color:blueviolet ;
+    font-weight: bolder ;
+    font-size: 20px;
+}
+.bad 
+{
+    color: red;
+}
+.excellnt
+{
+    color: blueviolet;
+}
+.good
+{
+    color: blue;
+}
+
+/**************************************************************************************/
+/**** index page ****/
+
+.bg
+{
+    background-color:rgb(44, 44, 107) ;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.address
+{
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+.exam
+{
+    font-size: 25px;
+}
+.exam:hover
+{
+    text-decoration: none;
+}
+.button-exam:hover
+{
+    text-decoration: none;
+    background-color: rgb(83, 83, 138);
+}
+
+img{
+    border-radius: 10px;
+}
